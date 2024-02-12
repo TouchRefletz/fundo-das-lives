@@ -35,11 +35,14 @@ body {
 }
 
 .content h2 {
-  color: #fff;
-  font-size: 8em;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
+    color: #fff;
+    font-size: 8em;
+    position: fixed; /* Mudamos de 'absolute' para 'fixed' */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
 
 .content h2:nth-child(1) {
   color: transparent;
